@@ -46,25 +46,24 @@
 
 .boxed-btn {
     background: #fff;
-    color: #8f1bdc !important;
+    color: #21bf73 !important;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Nunito", sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #8f1bdc;
+    border: 1px solid #21bf73;
     letter-spacing: 3px;
     text-align: center;
-    color: #8f1bdc;
     text-transform: uppercase;
     cursor: pointer
 }
 
 .boxed-btn:hover {
-    background: #8f1bdc;
+    background: #21bf73;
     color: #fff !important;
-    border: 1px solid #8f1bdc
+    border: 1px solid #21bf73
 }
 
 .boxed-btn:focus {
@@ -394,7 +393,7 @@ hr {
 }
 
 .btn {
-    background: #f9218d;
+    background: #21bf73;
     -moz-user-select: none;
     text-transform: capitalize;
     color: #fff;
@@ -423,7 +422,7 @@ hr {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #da1276;
+    background: #1c9c5e;
     z-index: 1;
     border-radius: 5px;
     transition: transform 0.5s;
@@ -451,14 +450,14 @@ hr {
 }
 
 .card-btn1 {
-    background: #712fda;
+    background: #21bf73;
     border-radius: 6px;
     padding: 30px 40px;
     text-transform: uppercase
 }
 
 .card-btn1::before {
-    background: #ff374b
+    background: #1c9c5e
 }
 
 .btn.focus,
@@ -564,7 +563,7 @@ hr {
 }
 
 #scrollUp {
-    background: #8f1bdc;
+    background: #d852e8;
     height: 50px;
     width: 50px;
     right: 31px;
@@ -599,7 +598,8 @@ hr {
     -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-    background: #fff
+    background: #fff;
+    padding: 10px
 }
 
 .mt-5 {
@@ -1987,7 +1987,7 @@ hr {
     position: relative;
     border-style: solid;
     border-width: 3px;
-    border-top-color: #8f1bdc;
+    border-top-color: #21bf73;
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -2072,21 +2072,21 @@ hr {
 }
 
 .section-padding2 {
-    padding-top: 200px;
-    padding-bottom: 200px
+    padding-top: 150px;
+    padding-bottom: 120px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .section-padding2 {
-        padding-top: 200px;
-        padding-bottom: 200px
+        padding-top: 150px;
+        padding-bottom: 120px
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .section-padding2 {
-        padding-top: 200px;
-        padding-bottom: 200px
+        padding-top: 150px;
+    padding-bottom: 120px
     }
 }
 
@@ -2226,21 +2226,21 @@ hr {
 }
 
 .section-padd-top30 {
-    padding-top: 170px;
-    padding-bottom: 200px
+    padding-top: 150px;
+    padding-bottom: 150px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .section-padd-top30 {
-        padding-top: 170px;
-        padding-bottom: 200px
+        padding-top: 150px;
+    padding-bottom: 150px
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .section-padd-top30 {
-        padding-top: 170px;
-        padding-bottom: 200px
+        padding-top: 150px;
+        padding-bottom: 150px
     }
 }
 
@@ -2266,14 +2266,14 @@ hr {
 }
 
 .section-padd4 {
-    padding-top: 200px;
-    padding-bottom: 110px
+    padding-top: 120px;
+    padding-bottom: 80px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .section-padd4 {
-        padding-top: 200px;
-        padding-bottom: 110px
+        padding-top: 120px;
+        padding-bottom: 80px
     }
 }
 
@@ -2386,14 +2386,14 @@ hr {
 }
 
 .footer-padding {
-    padding-top: 200px;
-    padding-bottom: 100px
+    padding-top: 120px;
+    padding-bottom: 90px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .footer-padding {
-        padding-top: 200px;
-        padding-bottom: 100px
+        padding-top: 120px;
+    padding-bottom: 90px
     }
 }
 
@@ -4156,9 +4156,13 @@ hr {
 }
 
 .best-pricing::before {
-    background-image: -moz-linear-gradient(0deg, #f9218d 0%, #6c19f6 100%);
+    /* background-image: -moz-linear-gradient(0deg, #f9218d 0%, #6c19f6 100%);
     background-image: -webkit-linear-gradient(0deg, #f9218d 0%, #6c19f6 100%);
-    background-image: -ms-linear-gradient(0deg, #f9218d 0%, #6c19f6 100%)
+    background-image: -ms-linear-gradient(0deg, #f9218d 0%, #6c19f6 100%) */
+    background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .available-app-area {
@@ -5333,7 +5337,7 @@ del {
 }
 
 .main-header .main-menu ul li>a {
-    color: #450b78;
+    color: #21bf73;
     font-weight: 400;
     padding: 39px 16px;
     font-weight: 400;
@@ -5357,7 +5361,7 @@ del {
     content: "";
     left: 0;
     bottom: 20px;
-    background: #a60dcf;
+    background: #21bf736b;
     height: 2px;
     width: 0;
     transition: .3s
@@ -5493,14 +5497,14 @@ del {
 }
 
 .slider-height {
-    min-height: 1000px;
+    min-height: 750px;
     background-repeat: no-repeat;
     background-position: center center
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .slider-height {
-        min-height: 900px
+        min-height: 750px
     }
 }
 
@@ -5521,7 +5525,7 @@ del {
 }
 
 .slider-padding {
-    padding-top: 130px
+    padding-top: 270px
 }
 
 @media (max-width: 767px) {
@@ -5663,8 +5667,9 @@ del {
 }
 
 .slider-area .hero__img img {
-    height: 600px;
-    margin-top: -170px;
+    height: 530px;
+    margin-top: -30%;
+    margin-left: 10%;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -5737,10 +5742,15 @@ z .slider-area .hero-cap h2 {
     transition: .5s;
 }
 
+.best-features-area img{
+    width: 480px;
+    margin-left: -23%;
+    margin-top: 5%;
+}
+
 .best-features-area .single-features:hover {
     transition: all .2s cubic-bezier(.02,.54,.58,1);
     box-shadow: 0 10px 55px 5px rgba(137,173,255,.35);
-    margin: -15px 0px;
 }
 
 @media (max-width: 767px) {
@@ -5759,9 +5769,13 @@ z .slider-area .hero-cap h2 {
     line-height: 67px;
     border-radius: 50%;
     text-align: center;
-    background-image: -moz-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%);
+    /* background-image: -moz-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%);
     background-image: -webkit-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%);
-    background-image: -ms-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%)
+    background-image: -ms-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%) */
+    background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #21bf73, #53abb9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .best-features-area .single-features .features-caption {
@@ -5857,7 +5871,8 @@ z .slider-area .hero-cap h2 {
     font-size: 50px;
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 90px
+    margin-bottom: 15%;
+    text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -5933,11 +5948,12 @@ z .slider-area .hero-cap h2 {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 27px;
-    display: inline-block
+    display: inline-block;
+    color: #2e2d47;
 }
 
 .service-area .services-caption .service-cap h4 a:hover {
-    color: #835ef8
+    color: #21bf73
 }
 
 .services-caption:hover {
@@ -5950,7 +5966,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .services-caption:hover .service-icon span {
-    background: #835ef8
+    background: #21bf73
 }
 
 .services-caption.active {
@@ -5962,7 +5978,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .services-caption.active .service-icon span {
-    background: #835ef8
+    background: #21bf73
 }
 
 .applic-apps {
@@ -6206,7 +6222,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .pricing-card-area .single-card .card-top h4 {
-    color: #6a56a6;
+    color: #21bf73;
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 26px;
@@ -6215,7 +6231,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .pricing-card-area .single-card .card-top h4 span {
-    color: #6a56a6;
+    color: #21bf73;
     font-size: 16px
 }
 
@@ -6307,7 +6323,7 @@ z .slider-area .hero-cap h2 {
 
 .our-customer .single-customer .what-cap h4 a {
     font-size: 20px;
-    color: #712fda;
+    color: #21bf73;
     margin-bottom: 20px
 }
 
@@ -6318,7 +6334,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .our-customer .single-customer .what-cap h4 a:hover {
-    color: #8f1bdc
+    color: #1c9c5e
 }
 
 @media (max-width: 767px) {
@@ -6846,7 +6862,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .footer-area .footer-tittle h4 {
-    color: #000;
+    color: #fff;
     font-size: 18px;
     margin-bottom: 48px;
     font-weight: 700
@@ -6858,7 +6874,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .footer-area .footer-tittle ul li a {
-    color: #868c98;
+    color: #fff;
     font-weight: 300
 }
 
@@ -6891,7 +6907,7 @@ z .slider-area .hero-cap h2 {
     border: 0;
     cursor: pointer;
     padding: 11px 22px;
-    background: #8f1bdc;
+    background: #21bf73;
     line-height: 1
 }
 
@@ -6984,4 +7000,47 @@ z .slider-area .hero-cap h2 {
     color: #fff;
     font-size: 50px;
     font-weight: 700
+}
+
+
+
+/* /// Custom design  */
+
+.feat img {
+    width: 490px;
+    margin-left: -21%;
+    margin-top: 11%;
+    /* height: 598px; */
+}
+
+
+.our-customer.section-padd-top30.sky-blue {
+    margin-top: 10%;
+}
+
+.footer-main {
+    background-color: #343351;
+}
+
+.footer-main p, h3, h4, a {
+    color: #fff
+}
+
+.copyright {
+    background-color: #2e2d47;
+    padding: 36px;
+    text-align: center;
+}
+
+.copyright i {
+    color: #f9218d;
+}
+
+.footer-logo a {
+    font-size: 30px
+}
+
+.logo a {
+    font-size: 30px;
+    color: #21bf73;
 }
