@@ -2502,7 +2502,7 @@ hr {
 @media (max-width: 560px) {
     .slicknav_menu .slicknav_icon {
         margin-right: 6px;
-        margin-top: -20px;
+        margin-top: 30px;
         position: relative;
         right: 5px;
         top: -5px;
@@ -2513,8 +2513,8 @@ hr {
         height: 100px;
     }
 
-    .logo {
-        margin-top: -20px;
+    .logo a {
+        margin-top: 20px;
     }
 }
 
@@ -5295,7 +5295,7 @@ del {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .main-header {
-        padding: 11px 0
+        padding: 25px 0
     }
 }
 
@@ -5306,7 +5306,7 @@ del {
     }
 
     .slicknav_menu .slicknav_icon {
-        margin-top: -22px;
+        margin-top: 12px;
         margin-left: 100%;
     }
 }
@@ -5314,6 +5314,12 @@ del {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .main-header {
         padding: 11px 0
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .main-header {
+        padding: 25px 0
     }
 }
 
@@ -6879,7 +6885,7 @@ background: linear-gradient(to right, #21bf73, #53abb9); /* W3C, IE 10+/ Edge, F
 }
 
 .footer-area .footer-tittle ul li a:hover {
-    color: #8f1bdc;
+    color: #21bf73;
     padding-left: 5px
 }
 
@@ -6912,7 +6918,7 @@ background: linear-gradient(to right, #21bf73, #53abb9); /* W3C, IE 10+/ Edge, F
 }
 
 .footer-area .info.error {
-    color: #8f1bdc
+    color: #21bf73
 }
 
 .footer-area .footer-social a {
@@ -7043,4 +7049,63 @@ background: linear-gradient(to right, #21bf73, #53abb9); /* W3C, IE 10+/ Edge, F
 .logo a {
     font-size: 30px;
     color: #21bf73;
+}
+
+@media only screen and (min-width: 342px) and (max-width: 410px) {
+    .best-features-area img {
+        width: 350px;
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-bottom: 14%;
+    
+    }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 576px) {
+    .slicknav_menu .slicknav_icon {
+        margin-top: 12px;
+        margin-left: 0%;
+    }
+
+    /* .logo a {
+        margin-top: 6px;
+        margin-left: 10%;
+    } */
+    
+}
+
+@media only screen and (min-width: 360px) and (max-width: 660px) {
+     .logo a {
+        margin-top: 6px;
+        margin-left: 10%;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 560px) {
+    .logo a {
+       margin-top: 6px;
+       margin-left: 10%;
+       font-size: 20px;
+   }
+   .main-header {
+    height: 80px;
+}
+.slicknav_menu .slicknav_icon {
+    margin-right: 6px;
+    margin-top: 30px;
+    position: relative;
+    right: 5px;
+    top: -20px;
+    padding-bottom: 3px;
+}
+.logo {
+    margin-top: 15px;
+}
+.best-features-area img {
+    width: 250px;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 14%;
+}
 }
